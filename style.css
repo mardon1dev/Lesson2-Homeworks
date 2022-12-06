@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: white;
+}
+
+#first
+{
+    text-align: right;
+    margin: 10px;
+    background-color: aquamarine;
+    color: red;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.menu-main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 37%;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#image1
+{
+    margin-left: 300px;
+    width: 800px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.information 
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.information h3
+{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
